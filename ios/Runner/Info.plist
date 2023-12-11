@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>QR Code Scan</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>QR Code Scan</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>        <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>uxlivinglab.com</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+        <string>dowelllogin</string>
+        </array>
+        </dict>
+    </array>
+    <key>FlutterDeepLinkingEnabled</key>
+    <true/>
+
+
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>Our app uses location access to provide you with location-based services, such as finding nearby stores, events, or connecting with friends in your area. We use this data solely to enhance your experience within the app and to offer features that rely on your location information.
+
+Please be assured that we prioritize your privacy and only access your location when necessary for these specific functionalities. We do not track your location outside of the app or share your location data with third parties. For more details on how we handle your location data, please consult our privacy policy.&quot;</string>
+	<key>NSCameraUsageDescription</key>
+    <string>In order to take a picture or video, this app requires permission to access the camera.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>In order to upload data, this app requires permission to access the photo library.</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>Our app requires access to your device's microphone for various features, such as voice search, recording audio messages, or enabling video calls. Your microphone helps us provide interactive and engaging experiences, making communication and interaction more convenient and enjoyable.
+
+Rest assured that we do not use your microphone for any purpose other than these app features. Your conversations and voice data remain private and are not shared with external parties. To learn more about our data usage, please refer to our privacy policy."</string>
+	<key>PermissionGroupNotification</key>
+    <string>To keep you informed and engaged with our app, we request notification access. This allows us to send you timely updates, alerts, and relevant information, such as messages, news, or reminders, directly to your device.
+
+We value your privacy, and your notification data is solely used for the purpose of enhancing your experience within the app. We do not share your notification content with third parties. To learn more about our notification practices, please review our privacy policy."</string>
+
+
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+
+</dict>
+</plist>
